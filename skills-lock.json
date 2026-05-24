@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "panda-css": {
+      "source": "/Users/alec/dev/skills",
+      "sourceType": "local",
+      "computedHash": "7fd528d24e9f7f3117dbe692d238902e969a6ced7382a2d3c41a72b5febc4d43"
+    }
+  }
+}
