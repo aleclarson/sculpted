@@ -1,0 +1,21 @@
+{
+  "name": "sculpted-manual-vite-preact-pandacss",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "latest"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "latest",
+    "@preact/preset-vite": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
