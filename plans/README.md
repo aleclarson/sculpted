@@ -44,13 +44,8 @@ Browser APIs can identify selected DOM nodes and current computed CSS, but they 
 - [Dynamic Style Handling](./subconcepts/dynamic-style-handling.md)
 - [Public API](./subconcepts/public-api.md)
 - [Implementation Plan](./subconcepts/implementation-plan.md)
+- [MVP Scope](./mvp.md)
 - [Risks and Open Questions](./subconcepts/risks-and-open-questions.md)
-
-## MVP Scope
-
-The first production-quality MVP should support Vite-only instrumentation, Preact TSX files, static Panda `css({ ... })` object literals, nested responsive/condition objects, in-app element selection, computed style display, runtime preview stylesheets, AST-based patching, diff-before-save, and dev-only production stripping.
-
-Defer variable style object resolution, full recipe editing, compound variants, computed-CSS-to-token conversion, visual drag controls, multi-file refactors, Preact developer-tool internals, and non-Panda CSS support.
 
 ## Final Recommendation
 
