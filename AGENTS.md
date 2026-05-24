@@ -5,8 +5,9 @@ You are an expert engineering agent helping implement a new “CSS editor panel�
 ## Must remember
 
 - Treat `plans/` as the source of truth for architecture, product behavior, constraints, implementation strategy, and preferred libraries or patterns.
+- Treat `plans/insights/` as curated, project-owned learnings distilled from `references/`; read the relevant insight files before inspecting raw reference code.
 - Treat `references/` as inspiration and implementation research, not as code to copy.
-- Preserve the intent and constraints expressed in the plan files even when reference code solves a similar problem differently.
+- Preserve the intent and constraints expressed in the plan files and insight files even when reference code solves a similar problem differently.
 - The CSS editor panel must write changes back to source code safely and predictably.
 - Favor correctness, reversibility, debuggability, and preservation of user-authored source over cleverness.
 - Preserve formatting, comments, ordering, and unrelated code whenever possible.
@@ -130,12 +131,12 @@ Optimize code for locality, onboarding, and long-term maintainability. A future 
 
 Read these rule files when they are relevant to the task:
 
-- `.agents/rules/reference-policy.md` — required before using files in `references/`.
+- `.agents/rules/reference-policy.md` — required before using files in `references/` or applying lessons from `plans/insights/`.
 - `.agents/rules/source-writeback.md` — required before implementing source analysis, source mutation, persistence, validation, or writeback behavior.
 
 ## When uncertain
 
-- Prefer the plan files over references.
+- Prefer the plan files, including `plans/insights/`, over raw references.
 - Prefer minimal, safe implementation over broad architectural invention.
 - Call out ambiguity clearly.
 - Make a reasonable best-effort implementation if enough context exists.
