@@ -1,0 +1,5 @@
+# sculpted
+
+```
+pnpm add sculpted
+```
