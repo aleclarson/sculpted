@@ -127,6 +127,10 @@ Optimize code for locality, onboarding, and long-term maintainability. A future 
   - Is the indirection worth the loss of locality?
 - If the answer is unclear, prefer locality and inline code.
 
+## Manual verification
+
+- `examples/manual-vite-preact-pandacss/` is the minimal Vite + Preact + Panda CSS app for manually verifying CSS editor panel behavior and source writeback while this package is being built. It intentionally uses only Panda `css()` calls, with color tokens only and exact raw values for non-color properties.
+
 ## Required linked rules
 
 Read these rule files when they are relevant to the task:
